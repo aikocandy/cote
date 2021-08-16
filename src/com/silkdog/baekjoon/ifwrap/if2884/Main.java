@@ -1,4 +1,4 @@
-package com.silkdog.baekjoon.if2884;
+package com.silkdog.baekjoon.ifwrap.if2884;
 
 import java.io.*;
 
