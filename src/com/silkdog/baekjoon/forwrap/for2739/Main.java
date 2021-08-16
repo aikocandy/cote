@@ -1,4 +1,4 @@
-package com.silkdog.baekjoon.for2739;
+package com.silkdog.baekjoon.forwrap.for2739;
 
 import java.io.*;
 

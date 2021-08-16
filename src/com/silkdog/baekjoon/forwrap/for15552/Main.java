@@ -1,4 +1,4 @@
-package com.silkdog.baekjoon.for10950;
+package com.silkdog.baekjoon.forwrap.for15552;
 
 import java.io.*;
 
@@ -8,18 +8,19 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int cnt = Integer.parseInt(br.readLine());
+        int size = Integer.parseInt(br.readLine());
+        String line;
         int a, b;
-        String str;
-        for(int i = 0; i < cnt; i++){
-            str = br.readLine();
-            a = Integer.parseInt(str.split(" ")[0]);
-            b = Integer.parseInt(str.split(" ")[1]);
-            bw.write(Integer.toString(a + b) + "\n");
+        for(int i = 0 ; i < size; i++){
+            line = br.readLine();
+            a = Integer.parseInt(line.split(" ")[0]);
+            b = Integer.parseInt(line.split(" ")[1]);
+            bw.write(a + b + "\n");
         }
 
         bw.flush();
         bw.close();
         br.close();
+
     }
 }
