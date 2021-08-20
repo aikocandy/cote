@@ -21,9 +21,11 @@ public class Main {
             System.exit(0);
         }
 
-        while((per * cnt) > (price * cnt) - fixed){
-            cnt++;
-        }
+        System.out.println((int)(Math.log10(fixed)+1));
+
+//        while((per * cnt) > (price * cnt) - fixed){
+//            cnt++;
+//        }
 
         System.out.println(++cnt);
     }

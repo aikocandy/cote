@@ -1,4 +1,4 @@
-package com.silkdog.baekjoon.greedywrap.greedy1931;
+package com.silkdog.baekjoon.greedywrap.greedy11399;
 
 import java.io.BufferedReader;
 import java.io.IOException;
