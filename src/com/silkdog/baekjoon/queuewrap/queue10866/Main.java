@@ -1,4 +1,4 @@
-package com.silkdog.baekjoon.queue10866;
+package com.silkdog.baekjoon.queuewrap.queue10866;
 
 import java.io.*;
 import java.util.ArrayDeque;
