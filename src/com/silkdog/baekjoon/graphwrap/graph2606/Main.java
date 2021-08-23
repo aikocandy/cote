@@ -38,6 +38,10 @@ public class Main {
             arr[rear].add(front);
         }
 
+        for(int i = 1 ; i < arr.length; i++){
+            System.out.println(arr[i].toString());
+        }
+
         DFS(V);
         bw.write(String.valueOf(cnt));
         bw.flush();
@@ -48,7 +52,7 @@ public class Main {
 
     public static void DFS(int nodeIdx) {
         visited[nodeIdx] = true;
-        //System.out.printf("%d ->", nodeIdx);
+        System.out.printf("%d ->", nodeIdx);
         if (nodeIdx != 1) cnt++;
         for (int innerIdx : arr[nodeIdx]) {
             if (!visited[innerIdx]) {
